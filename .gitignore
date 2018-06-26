@@ -22,6 +22,14 @@ DerivedData
 *.xcuserstate
 project.xcworkspace
 
+#MISC
+#
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
 # Android/IntelliJ
 #
 build/
@@ -38,10 +46,6 @@ yarn-error.log
 
 #Configuration
 *.env
-*.env.development
-*.env.production
-.env.development
-.env.production
 
 # BUCK
 buck-out/

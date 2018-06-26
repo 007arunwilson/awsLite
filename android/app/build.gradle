@@ -80,12 +80,10 @@ project.ext.react = [
 apply from: "../../node_modules/react-native/react.gradle"
 
 project.ext.envConfigFiles = [
-    debug: ".env.development",
-    release: ".env.production",
-    anothercustombuild: ".env",
+    debug: ".env.development.local",
+    release: ".env.production.local",
+    anothercustombuild: ".env.local",
 ]
-
-apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
 
 /**
  * Set this to true to create two separate APKs instead of one:
