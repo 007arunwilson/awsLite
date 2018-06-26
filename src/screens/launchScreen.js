@@ -23,7 +23,7 @@ export default class App extends Component {
               "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"
           }}
         />
-        <Text style={styles.welcome}>Welcome to AWS Lite App!</Text>
+        <Text style={styles.welcome}>AWS Lite App</Text>
         <Text style={styles.welcomeSubtext}>
           An App with essentials of AWS Console.
         </Text>
