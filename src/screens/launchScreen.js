@@ -25,7 +25,7 @@ export default class App extends Component {
         />
         <Text style={styles.welcome}>AWS Lite App</Text>
         <Text style={styles.welcomeSubtext}>
-          An App with essentials of AWS Console.
+          An App with essentials from AWS Console.
         </Text>
       </View>
     );
