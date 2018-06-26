@@ -27,10 +27,9 @@ export default class App extends Component<Props> {
           }}
         />
         <Text style={styles.welcome}>Welcome to AWS Lite App!</Text>
-        <Text style={styles.instructions}>
-          A Lite version of AWS Console which includes essentials.
+        <Text style={styles.welcomeSubtext}>
+          An App with essentials of AWS Console.
         </Text>
-        <Text style={styles.instructions}>{instructions}</Text>
       </View>
     );
   }
@@ -41,16 +40,24 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#F5FCFF"
+    backgroundColor: "#FFFFFF"
   },
   welcome: {
     fontSize: 20,
     textAlign: "center",
-    margin: 10
+    margin: 10,
+    marginBottom: 2,
+    color: "#23303d"
+  },
+  welcomeSubtext: {
+    fontSize: 12,
+    textAlign: "center",
+    margin: 4,
+    color: "#23303d"
   },
   instructions: {
     textAlign: "center",
-    color: "#333333",
+    color: "#23303d",
     marginBottom: 5
   }
 });
